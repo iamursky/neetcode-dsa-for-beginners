@@ -14,7 +14,7 @@ Note:
 
 Return `k` as the final result.
 
-Example 1:
+**Example 1:**
 
 ```
 Input: nums = [1,1,2,3,4], val = 1
@@ -24,7 +24,7 @@ Output: [2,3,4]
 
 Explanation: You should return `k = 3` as we have `3` elements which are not equal to `val = 1`.
 
-Example 2:
+**Example 2:**
 
 ```
 Input: nums = [0,1,2,2,3,0,4,2], val = 2
@@ -36,6 +36,6 @@ Explanation: You should return `k = 5` as we have `5` elements which are not equ
 
 **Constraints:**
 
-`0 <= nums.length <= 100`
-`0 <= nums[i] <= 50`
-`0 <= val <= 100`
+- `0 <= nums.length <= 100`
+- `0 <= nums[i] <= 50`
+- `0 <= val <= 100`
